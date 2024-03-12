@@ -139,6 +139,34 @@
             tapping-term-ms = <180>;
             bindings = <&kp TAB>, <&kp LA(TAB)>;
         };
+
+        quote: quote {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUOTE";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp DQT>;
+        };
+
+        colon: colon {
+            compatible = "zmk,behavior-tap-dance";
+            label = "COLON";
+            #binding-cells = <0>;
+            bindings = <&kp COLON>, <&kp SEMI>;
+        };
+
+        brk_left: brk_left {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BRK_LEFT";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+        };
+
+        brk_right: brk_right {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BRK_RIGHT";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
+        };
     };
 
     keymap {
@@ -153,11 +181,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC  &kp N1        &kp N2        &kp N3         &kp N4          &kp N5                                   &kp N6     &kp N7          &kp N8         &kp N9        &kp N0           &kp GRAVE
-&kp TAB  &kp Q         &kp W         &kp E          &kp R           &kp T                                    &kp Y      &kp U           &kp I          &kp O         &kp P            &kp MINUS
-&capstd  &bhml LGUI A  &bhml LALT S  &bhml LCTRL D  &bhml LSHIFT F  &kp G                                    &kp H      &bhmr RSHIFT J  &bhmr RCTRL K  &bhmr RALT L  &bhmr RGUI SEMI  &kp EQUAL
-&to 3    &kp Z         &kp X         &kp C          &kp V           &kp B        &kp LBKT     &kp RBKT       &kp N      &kp M           &lt 2 COMMA    &kp DOT       &kp FSLH         &kp BSLH
-                                                    &lt 2 LANG1     &lt 1 SPACE  &lt 2 DEL    &kp BACKSPACE  &lt 2 RET
+&kp ESC  &kp N1        &kp N2        &kp N3         &kp N4          &kp N5                                     &kp N6     &kp N7          &kp N8         &kp N9        &kp N0           &kp GRAVE
+&kp TAB  &kp Q         &kp W         &kp E          &kp R           &kp T                                      &kp Y      &kp U           &kp I          &kp O         &kp P            &kp MINUS
+&capstd  &bhml LGUI A  &bhml LALT S  &bhml LCTRL D  &bhml LSHIFT F  &kp G                                      &kp H      &bhmr RSHIFT J  &bhmr RCTRL K  &bhmr RALT L  &bhmr RGUI SEMI  &kp EQUAL
+&to 3    &kp Z         &kp X         &kp C          &kp V           &kp B        &kp LBKT     &kp RBKT         &kp N      &kp M           &lt 2 COMMA    &kp DOT       &kp FSLH         &kp BSLH
+                                                    &lt 2 LANG1     &lt 1 SPACE  &lt 2 DEL    &lt 2 BACKSPACE  &lt 1 RET
             >;
         };
 
@@ -173,10 +201,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1           &kp N2         &kp N3                &kp N4                 &kp N5                               &kp N6     &kp N7            &kp N8             &kp N9          &kp N0           &kp GRAVE
-&kp TAB    &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT                          &kp CARET  &kp AMPS          &kp ASTRK          &kp QUESTION    &kp SQT          &kp EQUAL
-&kp CAPS   &kp PLUS         &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DQT                              &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS
-&kp LC(Y)  &kp PIPE         &kp LESS_THAN  &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH  &kp LBKT    &kp RBKT  &kp GRAVE  &kp UNDER         &kp SLASH          &kp TILDE       &kp SEMI         &kp BSLH
+&kp ESC    &kp N1           &kp N2         &kp N3                &kp N4                 &kp N5                               &kp N6     &kp N7     &kp N8      &kp N9        &kp N0   &kp GRAVE
+&kp TAB    &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT                          &kp CARET  &kp AMPS   &kp ASTRK   &kp QUESTION  &kp SQT  &kp EQUAL
+&kp CAPS   &kp PLUS         &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &quote                               &colon     &brk_left  &brk_right  &none         &none    &kp MINUS
+&kp LC(Y)  &kp PIPE         &kp LESS_THAN  &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH  &kp LBKT    &kp RBKT  &kp GRAVE  &kp UNDER  &kp SLASH   &kp TILDE     &none    &none
                                                                  &kp RET                &kp SPACE      &kp DEL     &kp BSPC  &kp RET
             >;
         };
