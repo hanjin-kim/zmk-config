@@ -124,13 +124,13 @@
 
         combo_under {
             bindings = <&kp UNDER>;
-            key-positions = <38 40>;
+            key-positions = <27 29>;
             layers = <1>;
         };
 
         combo_lt {
             bindings = <&kp LESS_THAN>;
-            key-positions = <19 21>;
+            key-positions = <30 32>;
             layers = <1>;
         };
 
