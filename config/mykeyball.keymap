@@ -140,12 +140,6 @@
             layers = <1>;
         };
 
-        combo_slash {
-            bindings = <&kp SLASH>;
-            key-positions = <31 21>;
-            layers = <1>;
-        };
-
         combo_backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <19 33>;
