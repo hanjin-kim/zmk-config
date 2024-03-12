@@ -31,16 +31,9 @@
 
         // symbols
 
-        combo_sqt {
-            timeout-ms = <50>;
-            key-positions = <14 15>;
-            layers = <1 2>;
-            bindings = <&kp SQT>;
-        };
-
         combo_dqt {
             timeout-ms = <50>;
-            key-positions = <15 16>;
+            key-positions = <14 15>;
             layers = <1 2>;
             bindings = <&kp DQT>;
         };
