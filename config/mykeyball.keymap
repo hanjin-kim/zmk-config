@@ -139,6 +139,24 @@
             key-positions = <31 33>;
             layers = <1>;
         };
+
+        combo_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <31 21>;
+            layers = <1>;
+        };
+
+        combo_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <19 33>;
+            layers = <1>;
+        };
+
+        combo_pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <32 20>;
+            layers = <1>;
+        };
     };
 
     behaviors {
