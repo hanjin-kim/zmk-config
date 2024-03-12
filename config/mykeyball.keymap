@@ -152,6 +152,8 @@
             label = "COLON";
             #binding-cells = <0>;
             bindings = <&kp COLON>, <&kp SEMI>;
+
+            tapping-term-ms = <180>;
         };
 
         brk_left: brk_left {
