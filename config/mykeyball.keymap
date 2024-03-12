@@ -97,6 +97,11 @@
             key-positions = <15 16>;
             layers = <1 2>;
         };
+
+        tonavlayer {
+            bindings = <&tog 1>;
+            key-positions = <0 2>;
+        };
     };
 
     behaviors {
