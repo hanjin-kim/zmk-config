@@ -203,11 +203,11 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1           &kp N2         &kp N3                &kp N4                 &kp N5                               &kp N6     &kp N7     &kp N8      &kp N9        &kp N0   &kp GRAVE
-&kp TAB    &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT                          &kp CARET  &kp AMPS   &kp ASTRK   &kp QUESTION  &kp SQT  &kp EQUAL
-&kp CAPS   &kp PLUS         &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &quote                               &colon     &brk_left  &brk_right  &none         &none    &kp MINUS
-&kp LC(Y)  &kp PIPE         &kp LESS_THAN  &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH  &kp LBKT    &kp RBKT  &kp GRAVE  &kp UNDER  &kp SLASH   &kp TILDE     &none    &none
-                                                                 &kp RET                &kp SPACE      &kp DEL     &kp BSPC  &kp RET
+&kp ESC    &kp N1     &kp N2         &kp N3     &kp N4                 &kp N5                                 &kp N6         &kp N7     &kp N8                &kp N9                 &kp N0        &kp GRAVE
+&kp TAB    &kp GRAVE  &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN       &quote                                 &kp AMPERSAND  &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp EQUAL
+&kp CAPS   &kp EXCL   &kp EQUAL      &kp PLUS   &kp RIGHT_PARENTHESIS  &kp HASH                               &kp PIPE       &kp UNDER  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp MINUS
+&kp LC(Y)  &kp CARET  &kp SLASH      &kp ASTRK  &kp BACKSLASH          &none           &kp LBKT     &kp RBKT  &kp TILDE      &none      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT        &none
+                                                &kp RET                &kp UNDERSCORE  &kp UNDER    &kp BSPC  &kp RET
             >;
         };
 
