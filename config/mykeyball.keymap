@@ -119,7 +119,25 @@
 
         combo_equal {
             bindings = <&kp EQUAL>;
-            key-positions = <26 27 28>;
+            key-positions = <26 28>;
+        };
+
+        combo_under {
+            bindings = <&kp UNDER>;
+            key-positions = <38 40>;
+            layers = <1>;
+        };
+
+        combo_lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <19 21>;
+            layers = <1>;
+        };
+
+        combo_gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <31 33>;
+            layers = <1>;
         };
     };
 
