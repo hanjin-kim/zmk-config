@@ -173,11 +173,11 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                           &kp N6   &kp N7    &kp N8    &kp N9     &kp N0    &kp GRAVE
-&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T                            &kp Y    &kp U     &kp UP    &kp O      &kp P     &kp EQUAL
-&kp CAPS   &kp A      &trans     &trans     &trans     &kp G                            &kp H    &kp LEFT  &kp DOWN  &kp RIGHT  &kp SEMI  &kp MINUS
-&kp LC(Y)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp B      &kp LBKT    &kp RBKT  &kp N    &kp LCLK  &kp SCLK  &kp RCLK   &kp FSLH  &kp BSLH
-                                            &kp RET    &kp SPACE  &kp DEL     &kp BSPC  &kp RET
+&kp ESC    &kp N1           &kp N2         &kp N3            &kp N4         &kp N5                           &kp N6         &kp N7      &kp N8                &kp N9                 &kp N0        &kp GRAVE
+&kp TAB    &kp SQT          &kp LESS_THAN  &kp GREATER_THAN  &kp DQT        &kp T                            &kp AMPERSAND  &kp U       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp EQUAL
+&kp CAPS   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL      &kp HASH                         &kp PIPE       &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp MINUS
+&kp LC(Y)  &kp CARET        &kp SLASH      &kp ASTERISK      &kp BACKSLASH  &kp B      &kp LBKT    &kp RBKT  &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN   &kp BSLH
+                                                             &kp RET        &kp SPACE  &kp DEL     &kp BSPC  &kp RET
             >;
         };
 
