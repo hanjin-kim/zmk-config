@@ -173,11 +173,11 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1           &kp N2         &kp N3            &kp N4         &kp N5                           &kp N6         &kp N7      &kp N8                &kp N9                 &kp N0        &kp GRAVE
-&kp TAB    &kp SQT          &kp LESS_THAN  &kp GREATER_THAN  &kp DQT        &kp T                            &kp AMPERSAND  &kp U       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp EQUAL
-&kp CAPS   &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL      &kp HASH                         &kp PIPE       &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp MINUS
-&kp LC(Y)  &kp CARET        &kp SLASH      &kp ASTERISK      &kp BACKSLASH  &kp B      &kp LBKT    &kp RBKT  &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN   &kp BSLH
-                                                             &kp RET        &kp SPACE  &kp DEL     &kp BSPC  &kp RET
+&kp ESC    &kp N1           &kp N2         &kp N3                &kp N4                 &kp N5                               &kp N6     &kp N7            &kp N8             &kp N9          &kp N0           &kp GRAVE
+&kp TAB    &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT                          &kp CARET  &kp AMPS          &kp ASTRK          &kp QUESTION    &kp SQT          &kp EQUAL
+&kp CAPS   &kp PLUS         &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DQT                              &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS
+&kp LC(Y)  &kp PIPE         &kp LESS_THAN  &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH  &kp LBKT    &kp RBKT  &kp GRAVE  &kp UNDER         &kp SLASH          &kp TILDE       &kp SEMI         &kp BSLH
+                                                                 &kp RET                &kp SPACE      &kp DEL     &kp BSPC  &kp RET
             >;
         };
 
