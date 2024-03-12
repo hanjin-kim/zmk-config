@@ -167,7 +167,7 @@
             flavor = "balanced";
             tapping-term-ms = <230>;
             quick-tap-ms = <175>;                // repeat on tap-into-hold
-            require-prior-idle-ms = <80>;
+            require-prior-idle-ms = <50>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <NUM_L ALPHA_L MACRO_L THUMBS>;    // <---[[the W key]]
