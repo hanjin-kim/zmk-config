@@ -131,17 +131,17 @@
 &kp TAB  &kp Q         &kp W         &kp E          &kp R           &kp T                                      &kp Y      &kp U           &kp I          &kp O         &kp P            &kp MINUS
 &capstd  &bhml LGUI A  &bhml LALT S  &bhml LCTRL D  &bhml LSHIFT F  &kp G                                      &kp H      &bhmr RSHIFT J  &bhmr RCTRL K  &bhmr RALT L  &bhmr RGUI SEMI  &kp EQUAL
 &to 3    &kp Z         &kp X         &kp C          &kp V           &kp B        &kp LBKT     &kp RBKT         &kp N      &kp M           &lt 2 COMMA    &kp DOT       &kp FSLH         &kp BSLH
-                                                    &lt 2 LANG1     &lt 1 SPACE  &lt 2 DEL    &lt 4 BACKSPACE  &lt 1 RET
+                                                    &lt 2 LANG1     &lt 1 SPACE  &lt 2 DEL    &lt 2 BACKSPACE  &lt 1 RET
             >;
         };
 
         upper_layer {
             bindings = <
-&kp ESC    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                           &kp F6         &kp F7     &kp F8     &kp F9     &kp F10        &kp F11
-&kp TAB    &kp Q      &kp SQT    &kp DQT    &kp AMPS   &kp PLUS                         &kp PG_UP      &kp HOME   &kp UP     &kp END    &kp BACKSLASH  &kp UNDER
-&kp CAPS   &kp LC(A)  &kp LC(S)  &trans     &kp LC(F)  &kp ASTRK                        &kp PAGE_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PIPE       &kp SQT
-&kp LC(Y)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp SLASH  &kp LBKT    &kp RBKT  &kp UNDER      &mkp LCLK  &mkp SCLK  &mkp RCLK  &kp FSLH       &kp DQT
-                                            &kp RET    &kp SPACE  &kp DEL     &kp BSPC  &kp RET
+&kp ESC    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                           &kp F6         &kp F7     &kp F8     &kp F9     &kp F10        &kp F11
+&kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                           &kp PG_UP      &kp HOME   &kp UP     &kp END    &kp BACKSLASH  &kp UNDER
+&kp CAPS   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0                           &kp PAGE_DOWN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PIPE       &kp SQT
+&kp LC(Y)  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LC(Y)  &kp LBKT    &kp RBKT  &kp UNDER      &mkp LCLK  &mkp SCLK  &mkp RCLK  &kp FSLH       &kp DQT
+                                                     &kp RET       &kp SPACE  &kp DEL     &kp BSPC  &kp RET
             >;
         };
 
@@ -162,26 +162,6 @@
 &bhml LC(F3) F3  &kp A            &kp S            &kp D            &kp F            &bhml LSHIFT G                         &kp H      &bhmr RSHFT J  &bhmr RCTRL K  &bhmr RALT L  &bhmr RGUI SEMI  &kp EQUAL
 &bhml LC(F4) F4  &kp Z            &kp X            &kp C            &kp V            &bhml LALT B     &kp LBKT    &kp RBKT  &kp N      &kp M          &lt 2 COMMA    &kp DOT       &kp FSLH         &kp BSLH
                                                                     &lt 2 LANG1      &lt 1 SPACE      &kp TAB     &kp BSPC  &lt 1 RET
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans     &trans         &trans        &trans            &trans                           &trans        &trans           &trans            &trans             &trans    &trans
-&trans  &kp N1     &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                     &kp NUMBER_6  &kp N7           &kp N8            &kp N9             &kp N0    &trans
-&trans  &kp GRAVE  &kp LESS_THAN  &kp MINUS     &kp GREATER_THAN  &kp COLON                        &kp AMPS      &kp EXCLAMATION  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SEMI  &trans
-&trans  &kp TILDE  &kp PLUS       &kp EQUAL     &kp ASTRK         &kp BACKSLASH  &trans    &trans  &kp PIPE      &kp QUESTION     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT    &trans
-                                                &trans            &kp UNDER      &trans    &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans
             >;
         };
     };
