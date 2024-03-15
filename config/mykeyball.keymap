@@ -148,9 +148,9 @@
         lower_layer {
             bindings = <
 &kp ESC    &kp N1     &kp N2         &kp N3     &kp N4            &kp N5                                 &kp N6         &kp N7                &kp N8                 &kp N9    &kp N0        &kp GRAVE
-&kp TAB    &kp GRAVE  &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN  &quote                                 &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none     &kp PERCENT   &kp EQUAL
-&kp CAPS   &kp EXCL   &kp PLUS       &kp EQUAL  &kp COLON         &kp HASH                               &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp QUESTION  &kp MINUS
-&kp LC(Y)  &kp CARET  &kp SLASH      &kp ASTRK  &kp BACKSLASH     &none           &kp LBKT     &kp RBKT  &kp TILDE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &none     &kp AT        &none
+&kp TAB    &kp GRAVE  &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN  &kp SQT                                &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH  &kp PERCENT   &kp EQUAL
+&kp CAPS   &kp EXCL   &kp PLUS       &kp EQUAL  &kp ASTRK         &kp DQT                                &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp QUESTION  &kp MINUS
+&kp LC(Y)  &kp CARET  &kp BACKSLASH  &kp SLASH  &none             &none           &kp LBKT     &kp RBKT  &kp TILDE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT    &none         &none
                                                 &kp RET           &kp UNDERSCORE  &kp UNDER    &kp BSPC  &kp RET
             >;
         };
