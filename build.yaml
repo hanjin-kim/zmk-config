@@ -19,7 +19,7 @@
 #    shield: mykeyball_right
 #  - board: nice_nano_v2
 #    shield: settings_reset
-inclue:
+include:
   - board: nice_nano_v2
     shield: myhand_left
   - board: nice_nano_v2
