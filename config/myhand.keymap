@@ -4,12 +4,10 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <dt-bindings/zmk/mouse.h>
+#include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
-
-#include <behaviors/mouse_keys.dtsi>
 
 #define DEFAULT 0
 #define UPPER 1
@@ -36,14 +34,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        eng_kor {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <37 40>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -101,10 +92,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &trans          &trans          &trans            &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP      &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP      &msc SCRL_RIGHT  &trans
-                                &trans  &trans  &trans    &mkp RCLK  &mkp LCLK  &mkp MCLK
+&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &trans          &trans          &trans        &trans           &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans                       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+                                               &trans     &trans  &trans    &mkp RCLK  &mkp LCLK  &mkp MCLK
             >;
         };
     };
