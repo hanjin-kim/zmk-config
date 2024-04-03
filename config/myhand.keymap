@@ -23,6 +23,14 @@
 #define MACRO_R 11 23 35 49
 #define THUMBS 50 51 52 53 54
 
+&mt {
+    tapping-term-ms = <200>;
+    quick-tap-ms = <170>;
+    require-prior-idle-ms = <80>;
+    flavor = "balanced";
+    hold-trigger-on-release;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
