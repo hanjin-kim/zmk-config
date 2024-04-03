@@ -32,6 +32,15 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        eng_kor {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <37 40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -43,19 +52,19 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESCAPE  &kp Q       &kp W       &kp E        &kp R         &kp T                              &kp Y            &kp U        &kp I        &kp O            &kp P               &kp MINUS
-&caps_word  &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G                              &kp H            &mt RSHFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RGUI SEMICOLON  &kp EQUAL
-&kp 3       &kp Z       &kp X       &kp C        &kp V         &kp B                              &kp N            &kp M        &kp COMMA    &kp DOT          &kp FSLH            &kp BSLH
-                                                 &kp ESCAPE    &lt 1 SPACE  &kp TAB    &kp ENTER  &lt 2 BACKSPACE  &kp DELETE
+&kp TAB     &kp Q       &kp W       &kp E        &kp R         &kp T                                    &kp Y      &kp U        &kp I        &kp O            &kp P               &kp MINUS
+&caps_word  &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G                                    &kp H      &mt RSHFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RGUI SEMICOLON  &kp EQUAL
+&kp 3       &kp Z       &kp X       &kp C        &kp V         &kp B                                    &kp N      &kp M        &kp COMMA    &kp DOT          &kp FSLH            &kp BSLH
+                                                 &kp ESCAPE    &lt 1 SPACE  &kp TAB    &lt 3 BACKSPACE  &lt 2 RET  &lt 4 DEL
             >;
         };
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans     &trans     &trans                               &trans         &trans    &kp UP_ARROW    &trans         &trans   &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &kp LANGUAGE_1                       &trans         &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
-&trans  &kp LC(Z)     &kp LC(C)     &kp LC(V)  &kp LC(V)  &kp LC(Y)                            &trans         &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
-                                               &trans     &trans          &trans    &kp ENTER  &kp BACKSPACE  &kp DEL
+&trans  &trans        &trans        &trans     &trans     &trans                                   &trans   &trans    &kp UP_ARROW    &trans         &trans   &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &kp LANGUAGE_1                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
+&trans  &kp LC(Z)     &kp LC(C)     &kp LC(V)  &kp LC(V)  &kp LC(Y)                                &trans   &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
+                                               &trans     &trans          &trans    &kp BACKSPACE  &kp RET  &kp DEL
             >;
         };
 
@@ -70,10 +79,10 @@
 
         sym {
             bindings = <
-&trans  &kp GRAVE  &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN  &kp SQT                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCL   &kp PLUS       &kp EQUAL  &kp ASTERISK      &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp CARET      &kp SLASH  &kp COLON         &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-                                             &trans            &kp UNDERSCORE  &trans    &trans  &trans  &trans
+&trans  &kp GRAVE      &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN  &kp SQT                           &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH  &trans        &trans
+&trans  &kp EXCL       &kp PLUS       &kp EQUAL  &kp ASTERISK      &kp DQT                           &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp QUESTION  &trans
+&trans  &kp BACKSLASH  &kp CARET      &kp SLASH  &kp COLON         &kp DOLLAR                        &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT    &trans        &trans
+                                                 &trans            &kp UNDERSCORE  &trans    &trans  &trans     &trans
             >;
         };
 
