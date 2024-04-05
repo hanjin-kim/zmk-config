@@ -76,9 +76,9 @@
 
         num {
             bindings = <
-&trans  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp PLUS                     &trans          &trans     &trans     &trans      &trans    &trans
-&trans  &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS                    &kp LANGUAGE_1  &kp RSHFT  &kp LCTRL  &kp RALT    &kp LGUI  &trans
-&trans  &none      &kp N1  &kp N2  &kp N3  &none                        &trans          &trans     &kp COMMA  &kp PERIOD  &trans    &trans
+&trans  &kp ASTRK  &kp N9  &kp N8  &kp N7  &kp PLUS                     &trans          &trans     &trans     &trans      &trans    &trans
+&trans  &kp SLASH  &kp N6  &kp N5  &kp N4  &kp MINUS                    &kp LANGUAGE_1  &kp RSHFT  &kp LCTRL  &kp RALT    &kp LGUI  &trans
+&trans  &none      &kp N3  &kp N2  &kp N1  &kp DOT                      &trans          &trans     &kp COMMA  &kp PERIOD  &trans    &trans
                                    &trans  &kp N0     &trans    &trans  &trans          &trans
             >;
         };
@@ -94,9 +94,9 @@
 
         fun {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &none                         &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &none                         &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &none                         &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F12  &kp F9  &kp F8  &kp F7  &none                         &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &kp F11  &kp F6  &kp F5  &kp F4  &none                         &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &kp F10  &kp F3  &kp F2  &kp F1  &none                         &trans  &trans     &trans     &trans    &trans    &trans
                                  &trans  &kp SPACE  &kp TAB    &trans  &trans  &trans
             >;
         };
