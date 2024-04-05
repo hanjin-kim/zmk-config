@@ -34,7 +34,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        to_colemak {
+            bindings = <&tog 8>;
+            key-positions = <5 6>;
+        };
+    };
 
     behaviors {
         en_kor: en_kor {
@@ -44,6 +51,15 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
+        };
+    };
+
+    macros {
+        colemak_en_kor: colemak_en_kor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LANGUAGE_1>;
+            label = "COLEMAK_EN_KOR";
         };
     };
 
@@ -125,6 +141,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &kp Q       &kp W       &kp F        &kp P        &kp B                                      &kp J      &kp L         &kp U        &kp Y    &none       &trans
+&trans  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D                                      &kp M      &mt RSHIFT N  &mt RCTRL E  &kp I    &mt RGUI O  &trans
+&trans  &kp Z       &kp X       &kp C        &kp D        &kp V                                      &kp K      &kp H         &kp COMMA    &kp DOT  &kp FSLH    &trans
+                                             &kp ESC      &lt 1 SPACE  &lt 5 TAB    &lt 3 BACKSPACE  &lt 2 RET  &lt 4 DEL
             >;
         };
     };
