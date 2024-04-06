@@ -72,6 +72,7 @@
             // |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
+
             display-name = "CLMK_EN";
             bindings = <
 &kp TAB     &kp Q       &kp W       &kp F        &kp P         &kp B                                      &kp J      &kp L        &kp U        &kp Y    &kp P       &kp MINUS
@@ -84,9 +85,9 @@
         qwerty_kor {
             display-name = "QWRT_KOR";
             bindings = <
-&trans  &kp Q       &kp W       &kp F        &kp P        &kp B                     &kp J   &kp L         &kp U        &kp Y    &none       &trans
-&trans  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D                     &kp M   &mt RSHIFT N  &mt RCTRL E  &kp I    &mt RGUI O  &trans
-&trans  &kp Z       &kp X       &kp C        &kp D        &kp V                     &kp K   &kp H         &kp COMMA    &kp DOT  &kp FSLH    &trans
+&trans  &kp Q       &kp W       &kp E        &kp R        &kp T                     &kp Y   &kp U         &kp I        &kp O   &kp P       &trans
+&trans  &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G                     &kp H   &mt RSHIFT J  &mt RCTRL K  &kp L   &mt RGUI O  &trans
+&trans  &kp Z       &kp X       &kp C        &kp V        &kp B                     &kp N   &kp M         &trans       &trans  &trans      &trans
                                              &trans       &trans  &trans    &trans  &trans  &trans
             >;
         };
