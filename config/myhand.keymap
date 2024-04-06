@@ -38,7 +38,7 @@
         compatible = "zmk,combos";
 
         toggle_qwerty {
-            bindings = <&en_kor>;
+            bindings = <&colemak_en_kor>;
             key-positions = <5 6>;
         };
     };
@@ -132,24 +132,6 @@
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans                       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans
 &trans  &trans        &trans        &trans     &trans     &trans                       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans
                                                &trans     &trans  &trans    &mkp RCLK  &mkp LCLK  &mkp MCLK
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
