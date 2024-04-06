@@ -72,7 +72,7 @@
             // |  CTRL |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
-
+            display-name = "CLMK_EN";
             bindings = <
 &kp TAB     &kp Q       &kp W       &kp F        &kp P         &kp B                                      &kp J      &kp L        &kp U        &kp Y    &kp P       &kp MINUS
 &caps_word  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G                                      &kp M      &mt RSHFT N  &mt RCTRL E  &kp I    &mt RGUI O  &kp EQUAL
@@ -82,6 +82,7 @@
         };
 
         qwerty_kor {
+            display-name = "QWRT_KOR";
             bindings = <
 &trans  &kp Q       &kp W       &kp F        &kp P        &kp B                     &kp J   &kp L         &kp U        &kp Y    &none       &trans
 &trans  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D                     &kp M   &mt RSHIFT N  &mt RCTRL E  &kp I    &mt RGUI O  &trans
