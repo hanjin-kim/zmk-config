@@ -1,0 +1,7 @@
+&i2c0 {
+    status = "okay";
+ 
+    oled: sh1106@3c {
+      segment-remap = "false";
+    };
+};
