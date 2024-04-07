@@ -48,10 +48,10 @@
     };
 
     macros {
-        colemak_en_kor: colemak_en_kor {
+        toggle_qwerty: colemak_en_kor {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 0 &kp LANGUAGE_1>;
+            bindings = <&tog 1 &kp LANGUAGE_1>;
             label = "COLEMAK_EN_KOR";
         };
     };
@@ -68,10 +68,10 @@
 
             display-name = "COLEMAK";
             bindings = <
-&kp TAB          &kp Q       &kp W       &kp F        &kp P         &kp B                                      &kp J      &kp L        &kp U        &kp Y    &kp SEMI    &kp MINUS
-&caps_word       &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G                                      &kp M      &mt RSHFT N  &mt RCTRL E  &kp I    &mt RGUI O  &kp EQUAL
-&colemak_en_kor  &kp Z       &kp X       &kp C        &kp D         &kp V                                      &kp K      &kp H        &kp COMMA    &kp DOT  &kp FSLH    &kp BSLH
-                                                      &kp ESCAPE    &lt 2 SPACE  &lt 6 TAB    &lt 4 BACKSPACE  &lt 3 RET  &lt 5 DEL
+&kp TAB         &kp Q       &kp W       &kp F        &kp P         &kp B                                      &kp J      &kp L        &kp U        &kp Y    &kp SEMI    &kp MINUS
+&caps_word      &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G                                      &kp M      &mt RSHFT N  &mt RCTRL E  &kp I    &mt RGUI O  &kp EQUAL
+&toggle_qwerty  &kp Z       &kp X       &kp C        &kp D         &kp V                                      &kp K      &kp H        &kp COMMA    &kp DOT  &kp FSLH    &kp BSLH
+                                                     &kp ESCAPE    &lt 2 SPACE  &lt 6 TAB    &lt 4 BACKSPACE  &lt 3 RET  &lt 5 DEL
             >;
         };
 
