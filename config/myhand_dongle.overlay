@@ -2,6 +2,7 @@
     status = "okay";
  
     oled: sh1106@3c {
-      /delete-property/ segment-remap;
+      // /delete-property/ segment-remap;
+      /delete-property/ com-invdir;
     };
 };
