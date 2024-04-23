@@ -57,11 +57,11 @@
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
-            display-name = "COLEMAK";
+            display-name = "0";
             bindings = <
-&kp TAB     &kp Q        &kp W        &kp F       &kp P       &kp B                                      &kp J      &kp L       &kp J       &kp U        &kp Y        &kp MINUS
-&caps_word  &mt LSHFT A  &mt LCTRL R  &mt LALT D  &mt LGUI T  &kp G                                      &kp M      &mt RGUI N  &mt RALT E  &mt RCTRL I  &mt RSHFT O  &kp EQUAL
-&kp LGUI    &kp Z        &kp X        &kp C       &kp D       &kp V                                      &kp K      &kp H       &kp COMMA   &kp DOT      &kp FSLH     &kp BSLH
+&kp TAB     &kp Q        &kp W        &kp E       &kp R       &kp T                                      &kp Y      &kp U       &kp I       &kp O        &kp P                &kp MINUS
+&caps_word  &mt LSHFT A  &mt LCTRL S  &mt LALT D  &mt LGUI F  &kp G                                      &kp H      &mt RGUI J  &mt RALT K  &mt RCTRL I  &mt RSHFT SEMICOLON  &kp EQUAL
+&kp LGUI    &kp Z        &kp X        &kp C       &kp V       &kp B                                      &kp N      &kp M       &kp COMMA   &kp DOT      &kp FSLH             &kp BSLH
                                                   &kp ESCAPE  &lt 1 SPACE  &lt 5 TAB    &lt 3 BACKSPACE  &lt 2 RET  &lt 4 DEL
             >;
         };
@@ -69,7 +69,7 @@
         nav {
             bindings = <
 &trans  &kp LC(Q)  &kp LC(W)  &kp LC(F)  &kp LC(P)  &kp LC(B)                           &trans   &trans    &kp UP          &trans         &trans   &trans
-&trans  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &kp LC(L)                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
+&trans  &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &kp LC(G)                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Y)                           &trans   &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
                                          &trans     &trans     &trans    &kp BACKSPACE  &kp RET  &kp DEL
             >;
@@ -91,8 +91,8 @@
         sym {
             bindings = <
 &trans  &kp GRAVE      &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN  &kp SQT                           &kp AMPS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH  &kp PERCENT   &trans
-&trans  &kp EXCL       &kp PLUS       &kp EQUAL  &kp ASTERISK      &kp DQT                           &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI  &kp QUESTION  &trans
-&trans  &kp BACKSLASH  &kp CARET      &kp SLASH  &kp COLON         &kp DOLLAR                        &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT    &trans        &trans
+&trans  &kp EXCL       &kp PLUS       &kp EQUAL  &kp ASTERISK      &kp DQT                           &kp PIPE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp P     &kp QUESTION  &trans
+&trans  &kp BACKSLASH  &kp CARET      &kp SLASH  &kp LS(P)         &kp DOLLAR                        &kp TILDE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT    &trans        &trans
                                                  &trans            &kp UNDERSCORE  &trans    &trans  &trans     &trans
             >;
 
