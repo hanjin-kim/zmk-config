@@ -68,9 +68,9 @@
 
         nav {
             bindings = <
-&trans  &kp LG(Q)       &kp LG(W)       &kp LG(F)        &kp LG(P)        &kp LG(B)                           &trans   &trans    &kp UP          &trans         &trans   &trans
-&trans  &mt LGUI LG(A)  &mt LALT LG(R)  &mt LCTRL LG(S)  &mt LSHFT LG(T)  &kp LG(G)                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
-&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(Y)                           &trans   &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
+&trans  &kp LG(Q)       &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)                           &trans   &kp LG(U)  &kp UP          &kp LG(O)      &trans   &trans
+&trans  &mt LGUI LG(A)  &mt LALT LG(S)  &mt LCTRL LG(D)  &mt LSHFT LG(F)  &kp LG(G)                           &trans   &kp LEFT   &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
+&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(B)                           &trans   &kp HOME   &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
                                                          &trans           &trans     &trans    &kp BACKSPACE  &kp RET  &kp DEL
             >;
 
