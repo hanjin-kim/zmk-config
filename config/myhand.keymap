@@ -33,7 +33,7 @@
     hold-trigger-on-release;
 };
 
-&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE COLON>; };
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON>; };
 
 / {
     combos { compatible = "zmk,combos"; };
