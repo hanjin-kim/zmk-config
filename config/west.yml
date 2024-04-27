@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmkfirmwares
       remote: zmkfirmware
-      revision: for-colemak-on-mac
+      revision: main
       import: config/west.yml
   self:
     path: config
