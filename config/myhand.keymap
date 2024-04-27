@@ -35,7 +35,7 @@
 
 &caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON COLON>; };
 
-&lt { quick-tap-ms = <180>; };
+&lt { quick-tap-ms = <250>; };
 
 / {
     combos { compatible = "zmk,combos"; };
