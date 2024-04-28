@@ -72,10 +72,10 @@
 
         nav {
             bindings = <
-&trans  &kp LC(Q)       &kp LC(W)       &kp LC(E)        &kp LC(R)        &kp LC(T)                                    &trans   &trans    &kp UP          &trans         &trans   &trans
-&trans  &mt LGUI LC(A)  &mt LALT LC(S)  &mt LCTRL LC(D)  &mt LSHFT LC(F)  &kp LC(LANGUAGE_1)                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
-&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp LC(Y)                                    &trans   &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
-                                                         &trans           &trans              &trans    &kp BACKSPACE  &kp RET  &kp DEL
+&trans  &kp LC(Q)       &kp LC(W)       &kp LC(E)        &kp LC(R)        &kp LC(T)                                &trans   &trans    &kp UP          &trans         &trans   &trans
+&trans  &mt LGUI LC(A)  &mt LALT LC(S)  &mt LCTRL LC(D)  &mt LSHFT LC(F)  &kp LANGUAGE_1                           &trans   &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &trans   &trans
+&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp LC(Y)                                &trans   &kp HOME  &kp PAGE_UP     &kp PAGE_DOWN  &kp END  &trans
+                                                         &trans           &trans          &trans    &kp BACKSPACE  &kp RET  &kp DEL
             >;
 
             label = "NAV";
