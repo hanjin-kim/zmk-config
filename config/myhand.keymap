@@ -101,10 +101,10 @@
         nav_mac {
             label = "NAVM";
             bindings = <
-&trans  &kp LG(Q)       &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)                           &trans   &kp HOME  &kp PAGE_UP    &trans    &trans     &trans
-&trans  &mt LGUI LG(A)  &mt LALT LG(S)  &mt LCTRL LG(D)  &mt LSHFT LG(F)  &kp LG(G)                           &trans   &kp LEFT  &kp UP_ARROW   &kp DOWN  &kp RIGHT  &trans
-&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(Y)                           &trans   &kp END   &kp PAGE_DOWN  &trans    &trans     &trans
-                                                         &trans           &trans     &trans    &kp BACKSPACE  &kp RET  &kp DEL
+&trans  &kp LG(Q)       &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)                           &kp PAGE_UP    &kp HOME  &kp UP_ARROW   &trans     &trans  &trans
+&trans  &mt LGUI LG(A)  &mt LALT LG(S)  &mt LCTRL LG(D)  &mt LSHFT LG(F)  &kp LG(G)                           &trans         &kp LEFT  &kp DOWN       &kp RIGHT  &trans  &trans
+&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(Y)                           &kp PAGE_DOWN  &kp END   &kp PAGE_DOWN  &trans     &trans  &trans
+                                                         &trans           &trans     &trans    &kp BACKSPACE  &kp RET        &kp DEL
             >;
         };
 
@@ -143,9 +143,9 @@
 
         mouse {
             bindings = <
-&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &trans          &trans          &trans          &trans           &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans                       &trans     &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_RIGHT  &trans
+&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &trans          &mmv MOVE_UP    &trans           &trans           &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &trans                       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans
+&trans  &trans        &trans        &trans     &trans     &trans                       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans
                                                &trans     &trans  &trans    &mkp RCLK  &mkp LCLK  &mkp MCLK
             >;
 
