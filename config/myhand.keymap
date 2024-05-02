@@ -101,10 +101,10 @@
         nav_mac {
             label = "NAVM";
             bindings = <
-&trans  &kp LG(Q)       &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)                           &trans   &trans   &trans  &trans  &trans  &trans
-&trans  &mt LGUI LG(A)  &mt LALT LG(S)  &mt LCTRL LG(D)  &mt LSHFT LG(F)  &kp LG(G)                           &trans   &trans   &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(Y)                           &trans   &trans   &trans  &trans  &trans  &trans
-                                                         &trans           &trans     &trans    &kp BACKSPACE  &kp RET  &kp DEL
+&trans  &kp LG(Q)       &kp LG(W)       &kp LG(E)        &kp LG(R)        &kp LG(T)                           &trans    &kp HOME      &kp PAGE_UP    &trans     &trans  &trans
+&trans  &mt LGUI LG(A)  &mt LALT LG(S)  &mt LCTRL LG(D)  &mt LSHFT LG(F)  &kp LG(G)                           &kp LEFT  &kp UP_ARROW  &kp DOWN       &kp RIGHT  &trans  &trans
+&trans  &kp LG(Z)       &kp LG(X)       &kp LG(C)        &kp LG(V)        &kp LG(Y)                           &trans    &kp END       &kp PAGE_DOWN  &trans     &trans  &trans
+                                                         &trans           &trans     &trans    &kp BACKSPACE  &kp RET   &kp DEL
             >;
         };
 
