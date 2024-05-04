@@ -89,9 +89,9 @@
 
         nav_win {
             bindings = <
-&trans  &kp LC(Q)       &kp LC(W)       &kp LC(E)        &kp LC(R)        &kp LC(T)                           &PAGE_UP     &kp HOME  &kp UP_ARROW   &trans    &trans     &trans
-&trans  &mt LGUI LC(A)  &mt LALT LC(S)  &mt LCTRL LC(D)  &mt LSHFT LC(F)  &kp LANG1                           &trans       &kp LEFT  &kp DOWN       &kp RIGHT  &trans  &trans
-&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp LC(Y)                           &PAGE_DOWN   &kp END   &kp PAGE_DOWN  &trans    &trans     &trans
+&trans  &kp LC(Q)       &kp LC(W)       &kp LC(E)        &kp LC(R)        &kp LC(T)                           &kp PAGE_UP    &kp HOME  &kp UP_ARROW   &trans     &trans     &trans
+&trans  &mt LGUI LC(A)  &mt LALT LC(S)  &mt LCTRL LC(D)  &mt LSHFT LC(F)  &kp LANG1                           &trans         &kp LEFT  &kp DOWN       &kp RIGHT  &trans     &trans
+&trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)        &kp LC(Y)                           &kp PAGE_DOWN  &kp END   &kp PAGE_DOWN  &trans     &trans     &trans
                                                          &trans           &trans     &trans    &kp BACKSPACE  &kp RET  &kp DEL
             >;
 
