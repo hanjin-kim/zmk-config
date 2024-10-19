@@ -12,17 +12,10 @@
 #     shield: reviung41
 #
 ---
-#include:
-#  - board: nice_nano_v2
-#    shield: mykeyball_left
-#  - board: nice_nano_v2
-#    shield: mykeyball_right
-#  - board: nice_nano_v2
-#    shield: settings_reset
 include:
   - board: nice_nano_v2
-    shield: myhand_left
+    shield: quefrency_left
   - board: nice_nano_v2
-    shield: myhand_right
+    shield: quefrency_right
   - board: nice_nano_v2
-    shield: myhand_dongle dongle_display
+    shield: settings_reset
